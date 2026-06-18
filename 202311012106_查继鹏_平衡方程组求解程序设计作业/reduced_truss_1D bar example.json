@@ -1,0 +1,49 @@
+{
+  "Title": "2.3 truss reduced equation",
+  "source_homework": "2-3 Global Stiffness Equations",
+  "K_FF": [
+    [
+      300.0,
+      -200.0
+    ],
+    [
+      -200.0,
+      200.0
+    ]
+  ],
+  "rhs": [
+    0.0,
+    10.0
+  ],
+  "known_dof": [
+    1
+  ],
+  "free_dof": [
+    2,
+    3
+  ],
+  "full_K": [
+    [
+      100.0,
+      -100.0,
+      0.0
+    ],
+    [
+      -100.0,
+      300.0,
+      -200.0
+    ],
+    [
+      0.0,
+      -200.0,
+      200.0
+    ]
+  ],
+  "full_force": [
+    0.0,
+    10.0
+  ],
+  "known_displacement": [
+    0.0
+  ]
+}
